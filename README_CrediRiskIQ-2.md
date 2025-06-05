@@ -99,9 +99,16 @@ Created using `ggplot2`, these include:
 
 Yes – CrediRiskIQ connects to live data via:
 - Web interface (e.g., Shiny or REST API)
-- Google Sheets (`googlesheets4`)
-- SQL/NoSQL databases (`DBI`, `RMySQL`)
-- APIs (`httr`, `jsonlite`)
+Where we used the following prompt
+
+
+library(httr)
+library(jsonlite)
+
+response <- GET("https://api.example.com/data")
+data <- fromJSON(content(response, "text"))
+
+
 
 ---
 
