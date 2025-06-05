@@ -123,7 +123,7 @@ data <- fromJSON(content(response, "text"))
 ## 📫 Contact
 
 Created by **Yash Shah**  
-For inquiries or feedback, connect via (LinkedIn)[https://www.linkedin.com/in/yashshah033/].
+For inquiries or feedback, connect via [LinkedIn](https://www.linkedin.com/in/yashshah033).
 yashy3691@gmail.com
 
 ---
